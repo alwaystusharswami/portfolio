@@ -1,20 +1,19 @@
-import styles from "./project.module.css";
-import img from "../../image/instagram.jpg"
+import img from "../../image/projectImage/project1.png"
 import { SiOpenproject } from "react-icons/si";
 
 export default function Project() {
   return (
     <>
-   <div className={styles.project}>
+   <div className="p-4">
    
-   <h1 className={styles.projectheading}><SiOpenproject/> Project</h1>
+   <h1 className="text-center text-2xl my-4"><SiOpenproject className="inline-block"/> Project</h1>
 
-   <div className={styles.projectdivflex}>
-       <a className={styles.projectinnerflex}>
-           <img src={img} alt="project photo" />
+   <div className="w-64 m-auto shadow-inner shadow-yellow-500 p-4" >
+       <a>
+           <img className="w-64 h-44 " src={img} alt="project photo" />
 
-         <div className={styles.content}>
-           <h1>Todo List</h1>
+         <div className="my-3">
+           <h1 className="text-2xl">PortFolio</h1>
            <p>I am crating todo list with help of Redux ToolKit</p>
          </div>         
      </a>

@@ -1,27 +1,38 @@
 export const skills=[
     {
         name:'HTML',
-        bg:'red'
+        bg:'red',
+        width:'80%'
     },
     {
         name:'CSS',
-        bg:'peru'
+        bg:'peru',
+        width:'70%'
+
 
     }, {
         name:'JAVASCRIPT',
-        bg:'green'
+        bg:'green',
+        width:'50%'
+
 
     }, {
         name:'REACT',
-        bg:'orange'
+        bg:'orange',
+        width:'60%'
+
 
     }, {
         name:'JAVA',
-        bg:'brown'
+        bg:'brown',
+        width:'70%'
+
 
     }, {
         name:'DSA',
-        bg:'pink'
+        bg:'hotPink',
+        width:'50%'
+
 
     }
 ]

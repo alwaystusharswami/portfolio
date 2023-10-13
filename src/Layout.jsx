@@ -7,7 +7,7 @@ import Skills from "./Component/Skills/Skills";
 function Layout() {
   return (
     < >
-      <div style={{boxShadow:`1px 1px 10px peru`, width:`90vw`,margin:`auto`}}>
+      <div>
       <Profile />
       <Skills />
       <Project/>
